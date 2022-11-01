@@ -36,6 +36,21 @@ ul a:hover{
     color:  #00b39b;
 }
 
+
+
+header nav .sub-menu{
+    display: none;
+
+}
+header li:hover .sub-menu{
+    display: inline-block;
+    border: 1px solid black ;
+    vertical-align: top;
+}
+
+
+
+
 section{
     margin: 50px 20%;
 }
@@ -56,14 +71,14 @@ section .titre p{
 section .paragraph .p1{
     color: gray;
     text-align: start;
-    font-size: 20px;
-    margin: 80px 0px 0px -100px;    
+    font-size: 18px;
+    margin: 80px 0px 0px -150px;    
 }
 section .paragraph .p2{
     color: gray;
     text-align: end;
-    font-size: 20px;   
-    margin: -117px -100px 0px 0px;
+    font-size: 18px;   
+    margin: -150px -160px 0px 0px;
 }
 section .flex-box{
     margin: 0px -95px 50px -95px;
