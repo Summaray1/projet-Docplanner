@@ -40,12 +40,23 @@ ul a:hover{
 
 header nav .sub-menu{
     display: none;
+    padding-top: 10px;
+    position: absolute;
+    min-width: 220px;
+    margin-left: -100px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+
 
 }
+header nav .sub-menu li{
+    display: block;
+    
+}
 header li:hover .sub-menu{
-    display: inline-block;
-    border: 1px solid black ;
-    vertical-align: top;
+   display: block;
+   margin-top: 20px;
 }
 
 
@@ -68,17 +79,13 @@ section .titre p{
     font-family: Arial,sans-serif;    
 }
 
-section .paragraph .p1{
-    color: gray;
-    text-align: start;
-    font-size: 18px;
-    margin: 80px 0px 0px -150px;    
+section .paragraph {
+    display: flex;
+    line-height: 1.5em;
+    padding: ;
 }
-section .paragraph .p2{
-    color: gray;
-    text-align: end;
-    font-size: 18px;   
-    margin: -150px -160px 0px 0px;
+section .paragraph p{
+    margin-right: 10px;
 }
 section .flex-box{
     margin: 0px -95px 50px -95px;
